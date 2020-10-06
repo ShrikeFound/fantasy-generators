@@ -26,10 +26,38 @@ faith_structure = [
   2,
 ];
 
+faith_god_origin = [
+  "It’s a deified ancestor - king or progenitor",
+  "It’s a legendary historical hero or teacher",
+  "It’s an abstract principle reified as an entity",
+  "It simply always existed since creation",
+  "It was an apotheosized sorcerer",
+  "It’s the genius of a particular land or location",
+  "It was an Outsider or alien from beyond",
+  "It was a personified natural phenomenon",
+  "It was another faith’s saint turned into a god",
+  "It was a tamed or placated supernatural entity",
+  "It was an artificial construct built by humans",
+  2,
+];
+
+faith_importance = [
+  "It’s the main purveyor of healing blessings",
+  "It provides magical favors to the faithful",
+  "It’s locked in conflict with a major local power",
+  "It supports something the PCs love or hate",
+  "It’s the state faith or otherwise legally important",
+  "It regularly hires people to do work for it",
+  "It’s trying to expand and needs help",
+  "It’s a huge economic player in the area",
+  "It plots secret sinister evils against the land",
+  "It has influence over important locals",
+];
+
 function Choose(array) {
   var idx = Math.floor(Math.random() * array.length);
   var result = "";
-  if (idx == array.length - 1) {
+  if (idx == array.length - 1 && typeof (array[idx] == "number")) {
     var indices = [];
 
     for (let i = 0; i < array[idx]; i++) {
@@ -47,3 +75,5 @@ function Choose(array) {
 }
 
 console.log(Choose(faith_structure));
+console.log(Choose(faith_god_origin));
+console.log(Choose(faith_importance));
