@@ -1,24 +1,24 @@
 //Who leads the faith?
 
 var faith_structure = [
-  "Each holy man or woman is the autonomous leader of their own branch of the sect, with however many followers they can gather.",
-  "There are multiple pontiffs, friendly or otherwise, with subordinate clergy obedient to their own pontiff and perhaps cooperative with others.",
-  "There is a single pontiff with a layer of upper clergy and temple heads beneath them, who have a layer of minor clergy serving them.",
-  "Individual congregations are independent, with their clergy subject to the consensus will of their parishoners.",
-  "Powerful lay believers fund temples that are subject to their family’s wishes, staffed by clergy supported by their funding.",
-  "There is no official clergy; some believers may take up special roles or provide teaching, but they are not qualitatively different from others.",
-  "The church is entirely part of the secular structure of the land, its clergy no more than officials appointed by the government to their roles.",
+  "Each holy man or woman is the autonomous leader of their own branch of the sect, with however many followers they can gather",
+  "There are multiple pontiffs, friendly or otherwise, with subordinate clergy obedient to their own pontiff and perhaps cooperative with others",
+  "There is a single pontiff with a layer of upper clergy and temple heads beneath them, who have a layer of minor clergy serving them",
+  "Individual congregations are independent, with their clergy subject to the consensus will of their parishoners",
+  "Powerful lay believers fund temples that are subject to their family’s wishes, staffed by clergy supported by their funding",
+  "There is no official clergy; some believers may take up special roles or provide teaching, but they are not qualitatively different from others",
+  "The church is entirely part of the secular structure of the land, its clergy no more than officials appointed by the government to their roles",
   2,
 ];
 
 var faith_god_origin = [
-  "be deified ancestor - king or progenitor",
+  "be a deified ancestor - king or progenitor",
   "be a legendary historical hero or teacher",
   "be an abstract principle reified as an entity",
   "have simply always existed since creation",
   "have been an apotheosized sorcerer",
   "be the genius of a particular land or location",
-  "It was an Outsider or alien from beyond",
+  "have been an Outsider or alien from beyond",
   "have been a personified natural phenomenon",
   "have been another faith’s saint turned into a god",
   "have been a tamed or placated supernatural entity",
@@ -40,54 +40,54 @@ var faith_importance = [
 ];
 
 var faith_want = [
-  "Crush its religious rivals in the area",
-  "Destroy a heretical but powerful sub-sect",
-  "Expand the faith to a foreign land or people",
-  "Recover holy land or a sacred site",
-  "Obtain vast material wealth for the faith",
-  "Depose a hostile royal house or government",
-  "Smash a specific enemy faith or group",
-  "Embody their god with a mighty ritual",
-  "Erect a huge and imposing temple complex",
-  "Perform a tremendously expensive rite",
-  "Strengthen or protect its devout believers",
-  "Stop a rival from crushing its other religions in the area",
-  "Stop a rival from destroying a heretical but powerful sub-sect",
-  "Stop a rival from expanding the faith to a foreign land or people",
-  "Stop a rival from recovering holy land or a sacred site",
-  "Stop a rival from obtaining vast material wealth for the faith",
-  "Stop a rival from deposing a hostile royal house or government",
-  "Stop a rival from smashing a specific enemy faith or group",
-  "Stop a rival from embodying their god with a mighty ritual",
-  "Stop a rival from erecting a huge and imposing temple complex",
-  "Stop a rival from performing a tremendously expensive rite",
-  "Stop a rival from strengthening or protecting its devout believers",
+  "crush its religious rivals in the area",
+  "destroy a heretical but powerful sub-sect",
+  "expand the faith to a foreign land or people",
+  "recover holy land or a sacred site",
+  "obtain vast material wealth for the faith",
+  "depose a hostile royal house or government",
+  "smash a specific enemy faith or group",
+  "embody their god with a mighty ritual",
+  "erect a huge and imposing temple complex",
+  "perform a tremendously expensive rite",
+  "strengthen or protect its devout believers",
+  "stop a rival from crushing its other religions in the area",
+  "stop a rival from destroying a heretical but powerful sub-sect",
+  "stop a rival from expanding the faith to a foreign land or people",
+  "stop a rival from recovering holy land or a sacred site",
+  "stop a rival from obtaining vast material wealth for the faith",
+  "stop a rival from deposing a hostile royal house or government",
+  "stop a rival from smashing a specific enemy faith or group",
+  "stop a rival from embodying their god with a mighty ritual",
+  "stop a rival from erecting a huge and imposing temple complex",
+  "stop a rival from performing a tremendously expensive rite",
+  "stop a rival from strengthening or protecting its devout believers",
 ];
 
 var faith_clergy = [
-  `Just ritual technicians trained in complex rites,
-with no special moral qualities.`,
+  `just ritual technicians trained in complex rites,
+with no special moral qualities`,
 
-  `Chosen from specific bloodlines or groups and
-trained to serve the faithful.`,
+  `chosen from specific bloodlines or groups and
+trained to serve the faithful`,
 
-  `Experts in some sphere related to the god’s
-portfolio or nature, though trained in ritual.`,
+  `experts in some sphere related to the god’s
+portfolio or nature, though trained in ritual`,
 
-  `Sorcerers who serve the god as part of their
-magical studies or efforts.`,
+  `sorcerers who serve the god as part of their
+magical studies or efforts`,
 
-  `Common believers chosen by their peers for
-their technical skill and good moral qualities.`,
+  `common believers chosen by their peers for
+their technical skill and good moral qualities`,
 
-  `Isolated ascetics or ritually-separated persons
-expected to keep a distance from the world.`,
+  `isolated ascetics or ritually-separated persons
+expected to keep a distance from the world`,
 
-  `Individuals who step forward and are accepted
-for their qualities or technical skills as priests.`,
+  `individuals who step forward and are accepted
+for their qualities or technical skills as priests`,
 
-  `The wealthier believers who can afford to keep
-up the expensive or demanding ritual practice.`,
+  `the wealthier believers who can afford to keep
+up the expensive or demanding ritual practice`,
 ];
 
 var faith_god_function = [
@@ -157,26 +157,26 @@ var faith_god_portfolio = [
 ];
 
 var faith_stricture = [
-  "Never/always associate with certain types",
-  "Never eat a particular common food type",
-  "Give a significant tithe regularly",
-  "Make particular sacrifices at certain times",
-  "Revere/hate a class or group of people",
-  "Forbid a certain common profession or role",
-  "Forbid an activity common to society",
-  "Give secular obedience to the clergy",
-  "Pray at certain fixed places or times",
-  "Never/always trade with certain sorts",
-  "Never/always live in certain places",
-  "Marry exclusively within the faith",
-  "Do something society finds repugnant",
-  "Hold certain places to be taboo",
-  "Hide the inner faith’s teachings from outsiders",
-  "Make sacrifices that society finds hateful",
-  "Never/always make war on certain types",
-  "Honor/degrade a particular profession",
-  "Make certain pilgrimages to holy places",
-  "Never/always cooperate with a certain faith",
+  "never/always associate with certain types",
+  "never eat a particular common food type",
+  "give a significant tithe regularly",
+  "make particular sacrifices at certain times",
+  "revere/hate a class or group of people",
+  "forbid a certain common profession or role",
+  "forbid an activity common to society",
+  "give secular obedience to the clergy",
+  "pray at certain fixed places or times",
+  "never/always trade with certain sorts",
+  "never/always live in certain places",
+  "marry exclusively within the faith",
+  "do something society finds repugnant",
+  "hold certain places to be taboo",
+  "hide the inner faith’s teachings from outsiders",
+  "make sacrifices that society finds hateful",
+  "never/always make war on certain types",
+  "honor/degrade a particular profession",
+  "make certain pilgrimages to holy places",
+  "never/always cooperate with a certain faith",
 ];
 
 function Choose(array, topic) {

@@ -3,14 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="style.css" />
     <title>Fantasy Generator</title>
   </head>
   <body>
     <header></header>
     <main>
-      <div>
-        <p class="display" id="display"></p>
+      <div class="container">
+        <div class="title-text">
+          <h1>The Theusites</h1>
+          <button class="regenerate" onclick="Regenerate()">
+            Click here or refresh for a new Faith.
+          </button>
+        </div>
+        <div class="display" id="display"></div>
       </div>
     </main>
     <script src="faith.js"></script>
