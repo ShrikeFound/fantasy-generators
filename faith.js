@@ -212,14 +212,15 @@ function Choose(array, topic) {
   }
   return result;
 }
-for (let i = 0; i < 20; i++) {
-  console.log("\n test " + i);
-  console.log(Choose(faith_structure, "structure"));
-  console.log(Choose(faith_god_origin, "origin"));
-  console.log(Choose(faith_importance, "importance"));
-  console.log(Choose(faith_want, "want"));
-  console.log(Choose(faith_clergy, "clergy"));
-  console.log(Choose(faith_god_function, "function"));
-  console.log(Choose(faith_god_portfolio, "portfolio"));
-  console.log(Choose(faith_stricture, "stricture"));
-}
+
+// for (let i = 0; i < 20; i++) {
+//   console.log("\n test " + i);
+//   console.log(Choose(faith_structure, "structure"));
+//   console.log(Choose(faith_god_origin, "origin"));
+//   console.log(Choose(faith_importance, "importance"));
+//   console.log(Choose(faith_want, "want"));
+//   console.log(Choose(faith_clergy, "clergy"));
+//   console.log(Choose(faith_god_function, "function"));
+//   console.log(Choose(faith_god_portfolio, "portfolio"));
+//   console.log(Choose(faith_stricture, "stricture"));
+// }
