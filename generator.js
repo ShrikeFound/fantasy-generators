@@ -35,14 +35,14 @@ function GenerateFaith() {
   faith.clergy = Choose(faith_clergy);
   faith.importance = Choose(faith_importance);
   faith.want = Choose(faith_want);
-  summary1 = `Followers of this faith worship ${faith.name}, deity of ${faith.portfolio}, who is believed to ${faith.origin}. ${faith.structure}. The religion's clergy is made up of ${faith.clergy}.`;
-  summary2 = `${faith.name} urges their followers to ${faith.stricture}, and in return ${faith.function}. The faith is important to the surrounding area because ${faith.importance}. Followers of ${faith.name} want to ${faith.want}.`;
-  faith.content = `<p>${summary1}</p> <p>${summary2}</p>`;
+  summary1 = `Followers of this faith worship <b>${faith.name}</b>, deity of <b>${faith.portfolio}</b>, who is believed to <b>${faith.origin}</b>. <b>${faith.structure}</b>. The religion's clergy is made up of <b>${faith.clergy}</b>.`;
+  summary2 = `${faith.name} urges their followers to <b>${faith.stricture}</b>, and in return <b>${faith.function}</b>. The faith is important to the surrounding area because <b>${faith.importance}</b>. Followers of ${faith.name} want to <b>${faith.want}</b>.`;
+  faith.summary = `<p>${summary1}</p> <p>${summary2}</p>`;
   return faith;
 }
 
 function SetDisplay(item) {
-  content = item.content;
+  content = item.summary;
   display.innerHTML = content;
 }
 
