@@ -84,9 +84,4 @@ var government_problem = [
   "The heir is unacceptable to many",
 ];
 
-function Choose(array, topic) {
-  var idx = Math.floor(Math.random() * array.length);
-  result = array[idx];
-  return result;
-}
-console.log(Choose(government_problem));
+console.log("government online!");

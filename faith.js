@@ -1,57 +1,42 @@
 //Who leads the faith?
 
 var faith_structure = [
-  `Each holy man or woman is the autonomous
-  leader of their own branch of the sect, with
-  however many followers they can gather.`,
-  `There are multiple pontiffs, friendly or otherwise,
-  with subordinate clergy obedient to their own
-  pontiff and perhaps cooperative with others.`,
-  `There is a single pontiff with a layer of upper
-  clergy and temple heads beneath them, who
-  have a layer of minor clergy serving them.`,
-  `Individual congregations are independent, with
-  their clergy subject to the consensus will of their
-  parishoners.`,
-  `Powerful lay believers fund temples that are
-  subject to their family’s wishes, staffed by clergy
-  supported by their funding.`,
-  `There is no official clergy; some believers may
-  take up special roles or provide teaching, but
-  they are not qualitatively different from others.`,
-  `The church is entirely part of the secular structure
-  of the land, its clergy no more than officials
-  appointed by the government to their roles.
-  `,
+  "Each holy man or woman is the autonomous leader of their own branch of the sect, with however many followers they can gather.",
+  "There are multiple pontiffs, friendly or otherwise, with subordinate clergy obedient to their own pontiff and perhaps cooperative with others.",
+  "There is a single pontiff with a layer of upper clergy and temple heads beneath them, who have a layer of minor clergy serving them.",
+  "Individual congregations are independent, with their clergy subject to the consensus will of their parishoners.",
+  "Powerful lay believers fund temples that are subject to their family’s wishes, staffed by clergy supported by their funding.",
+  "There is no official clergy; some believers may take up special roles or provide teaching, but they are not qualitatively different from others.",
+  "The church is entirely part of the secular structure of the land, its clergy no more than officials appointed by the government to their roles.",
   2,
 ];
 
 var faith_god_origin = [
-  "It’s a deified ancestor - king or progenitor",
-  "It’s a legendary historical hero or teacher",
-  "It’s an abstract principle reified as an entity",
-  "It simply always existed since creation",
-  "It was an apotheosized sorcerer",
-  "It’s the genius of a particular land or location",
+  "be deified ancestor - king or progenitor",
+  "be a legendary historical hero or teacher",
+  "be an abstract principle reified as an entity",
+  "have simply always existed since creation",
+  "have been an apotheosized sorcerer",
+  "be the genius of a particular land or location",
   "It was an Outsider or alien from beyond",
-  "It was a personified natural phenomenon",
-  "It was another faith’s saint turned into a god",
-  "It was a tamed or placated supernatural entity",
-  "It was an artificial construct built by humans",
+  "have been a personified natural phenomenon",
+  "have been another faith’s saint turned into a god",
+  "have been a tamed or placated supernatural entity",
+  "have been an artificial construct built by humans",
   2,
 ];
 
 var faith_importance = [
-  "It’s the main purveyor of healing blessings",
-  "It provides magical favors to the faithful",
-  "It’s locked in conflict with a major local power",
-  "It supports something the PCs love or hate",
-  "It’s the state faith or otherwise legally important",
-  "It regularly hires people to do work for it",
-  "It’s trying to expand and needs help",
-  "It’s a huge economic player in the area",
-  "It plots secret sinister evils against the land",
-  "It has influence over important locals",
+  "it’s the main purveyor of healing blessings",
+  "it provides magical favors to the faithful",
+  "it’s locked in conflict with a major local power",
+  "it supports something the PCs love or hate",
+  "it’s the state faith or otherwise legally important",
+  "it regularly hires people to do work for it",
+  "it’s trying to expand and needs help",
+  "it’s a huge economic player in the area",
+  "it plots secret sinister evils against the land",
+  "it has influence over important locals",
 ];
 
 var faith_want = [
@@ -106,26 +91,26 @@ up the expensive or demanding ritual practice.`,
 ];
 
 var faith_god_function = [
-  "It’s the war god or patron of those who fight",
-  "It’s the favorite god of the ruling class",
-  "It’s the patron of an important profession",
-  "It’s a devil-figure that must be placated",
-  "It provides healing or protection from danger",
-  "It’s a patron of an illegal but inevitable trade",
-  "It hallows the law and consecrates oaths",
-  "It’s flatly illegal and hated by most",
-  "It’s the protector of an ethnic minority",
-  "It provides good harvests or human fertility",
-  "It’s the patron of the former rulers of the land",
-  "It guards particular places within the land",
-  "It provides wisdom and insight at need",
-  "It gives good luck to its petitioners",
-  "It’s a protector of the weak and humble",
-  "It empowers those seeking revenge for wrongs",
-  "It bestows material wealth upon petitioners",
-  "It protects the soul in the afterlife",
-  "It explains the creation and order of the world",
-  "It prevents some type of common disaster",
+  "they are the war god or patron of those who fight",
+  "they are the favorite god of the ruling class",
+  "they are the patron of an important profession",
+  "they are a monstrous figure that must be placated",
+  "they provide healing or protection from danger",
+  "they are a patron of an illegal but inevitable trade",
+  "they hallow the law and consecrates oaths",
+  "they are flatly illegal and hated by most",
+  "they are the protector of an ethnic minority",
+  "they provide good harvests or human fertility",
+  "they are the patron of the former rulers of the land",
+  "they guard particular places within the land",
+  "they provide wisdom and insight at need",
+  "they give good luck to their petitioners",
+  "they are a protector of the weak and humble",
+  "they empower those seeking revenge for wrongs",
+  "they bestow material wealth upon petitioners",
+  "they protect the soul in the afterlife",
+  "they explain the creation and order of the world",
+  "they prevent some type of common disaster",
 ];
 
 var faith_god_portfolio = [
@@ -224,3 +209,5 @@ function Choose(array, topic) {
 //   console.log(Choose(faith_god_portfolio, "portfolio"));
 //   console.log(Choose(faith_stricture, "stricture"));
 // }
+
+console.log("faith online!");
