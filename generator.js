@@ -1,27 +1,3 @@
-function Choose(array, topic) {
-  var idx = Math.floor(Math.random() * array.length);
-  if (topic) {
-    var result = topic + ": ";
-  } else {
-    result = "";
-  }
-
-  if (idx == array.length - 1 && typeof array[idx] == "number") {
-    var indices = [];
-    for (let i = 0; i < array[idx]; i++) {
-      temp = array.length - 1;
-      while (temp == array.length - 1 && !indices.includes(temp)) {
-        temp = Math.floor(Math.random() * array.length);
-      }
-      indices.push(temp);
-      result = result.concat("\n", array[temp]);
-    }
-  } else {
-    result = result.concat(array[idx]);
-  }
-  return result;
-}
-
 console.log("generator online!");
 
 function GenerateFaith() {

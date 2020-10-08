@@ -181,7 +181,12 @@ var faith_stricture = [
 
 function Choose(array, topic) {
   var idx = Math.floor(Math.random() * array.length);
-  var result = topic + ": ";
+  if (topic) {
+    var result = topic + ": ";
+  } else {
+    result = "";
+  }
+
   if (idx == array.length - 1 && typeof array[idx] == "number") {
     var indices = [];
     for (let i = 0; i < array[idx]; i++) {
